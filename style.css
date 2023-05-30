@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("images/windowssss.jpeg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 400%;
+  margin-bottom: 10px;
+  color:black;
+  font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+  color:black;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.choice {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.choice:hover {
+  background-color: #555;
+}
+
+.question-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.hp {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.buttonStart {
+ background-image: url("images/buttonagain.png");
+  background-size: cover;
+  width: 15%;
+  padding: 2% 3%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.instructionsDiv {
+  width: 90%
+  margin: 0%, 5%, 0%;
+}
+
+.windowsDiv {
+  background-color: #ECE9D8;
+  border: solid #166AEE;
+  border-top: 20px solid #166AEE;
+  
+}

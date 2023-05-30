@@ -1,0 +1,9 @@
+[
+  {
+    "picture":"https://example.com/image1.jpg",
+    "question":"You are standing at a fork in the road. Which path do you choose?",
+    "choices":["Take the path to the left", "Take the path to the right"],
+    "impact":[2, -1],
+    "nextQuestion":[1, 2]
+  },
+]
